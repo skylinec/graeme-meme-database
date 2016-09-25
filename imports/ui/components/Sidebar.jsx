@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import { IndexLink, Link } from 'react-router';
 
 import { Header } from 'stardust';
 
@@ -24,9 +23,9 @@ export default class Sidebar extends Component {
         return (
             <div id="layout">
                 <div className="ui inverted left vertical sidebar menu">
-                    <li className="item"><IndexLink to="/" activeClassName="active">Index</IndexLink></li>
-                    <li className="item"><Link to="/one" activeClassName="active">Page One</Link></li>
-                    <li className="item"><Link to="/two" activeClassName="active">Page Two</Link></li>
+                    <li className="item">Index</li>
+                    <li className="item">Submit</li>
+                    <li className="item">About</li>
                 </div>
                 <div className="pusher">
                     <div className="ui top fixed menu">
