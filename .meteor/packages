@@ -23,3 +23,6 @@ less
 juliancwirko:postcss
 semantic:ui
 kadira:flow-router
+react-meteor-data
+arillo:flow-router-helpers
+gadicc:blaze-react-component

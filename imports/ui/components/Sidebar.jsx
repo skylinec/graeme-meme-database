@@ -23,9 +23,9 @@ export default class Sidebar extends Component {
         return (
             <div id="layout">
                 <div className="ui inverted left vertical sidebar menu">
-                    <li className="item">Index</li>
-                    <li className="item">Submit</li>
-                    <li className="item">About</li>
+                    <li className="item"><a href="/" onClick={this.toggleSidebar()}>Index</a></li>
+                    <li className="item"><a href="/submit" onClick={this.toggleSidebar()}>Submit</a></li>
+                    <li className="item"><a href="/about" onClick={this.toggleSidebar()}>About</a></li>
                 </div>
                 <div className="pusher">
                     <div className="ui top fixed menu">

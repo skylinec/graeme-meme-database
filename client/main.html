@@ -5,3 +5,10 @@
 <body>
 
 </body>
+
+<template name="links">
+    <a href="{{pathFor '/post/:id' id=_id}}">Link to post</a>
+    <a href="{{pathFor 'postRouteName' id=_id}}">Link to post</a>
+    <a href="{{pathFor '/post/:id/comments/:cid' id=_id cid=comment._id}}">Link to comment in post</a>
+    <a href="{{pathFor '/post/:id/comments/:cid' id=_id cid=comment._id query='back=yes&more=true'}}">Link to comment in post with query params</a>
+</template>
