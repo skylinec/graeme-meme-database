@@ -1,0 +1,31 @@
+{
+  "name": "graeme-meme-database",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "history": "^4.2.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-mounter": "^1.2.0",
+    "react-router": "^2.8.1",
+    "semantic-react": "^0.8.5",
+    "semantic-ui": "",
+    "stardust": "^0.45.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }
+  }
+}
