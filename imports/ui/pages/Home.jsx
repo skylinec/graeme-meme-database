@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import MainJumbotron from '../pages/home/MainJumbotron';
+import MainJumbotron from '../components/home/MainJumbotron';
 
 export default class Home extends Component {
     constructor(){

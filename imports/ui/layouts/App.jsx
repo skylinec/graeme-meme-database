@@ -12,7 +12,7 @@ export default class App extends Component {
         return (
             <div>
                 <Sidebar/>
-                { this.props.children }
+                {this.props.content}
             </div>
         )
     }
