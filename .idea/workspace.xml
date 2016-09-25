@@ -2,289 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3c6643d-bfac-4811-a01e-61f34e24efff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/graeme-meme-database.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.finished-upgraders" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.id" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/platforms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/release" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/.custom.semantic.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/custom.semantic.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/behaviors/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/behaviors/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/behaviors/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/behaviors/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/behaviors/visibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/behaviors/visit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/collections/breadcrumb.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/collections/form.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/collections/grid.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/collections/menu.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/collections/message.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/collections/table.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/button.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/container.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/divider.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/flag.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/header.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/icon.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/image.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/input.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/label.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/list.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/loader.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/rail.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/reveal.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/segment.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/elements/step.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/globals/reset.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/globals/site.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/globals/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/accordion.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/checkbox.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/dimmer.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/dimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/dropdown.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/embed.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/modal.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/nag.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/nag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/popup.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/progress.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/rating.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/search.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/shape.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/sidebar.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/sticky.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/tab.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/transition.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/modules/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/views/ad.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/views/card.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/views/comment.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/views/feed.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/views/item.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/definitions/views/statistic.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/semantic.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/breadcrumb.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/breadcrumb.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/form.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/form.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/grid.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/grid.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/menu.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/menu.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/message.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/message.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/table.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/collections/table.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/button.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/button.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/container.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/container.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/divider.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/divider.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/flag.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/flag.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/header.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/header.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/icon.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/icon.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/image.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/image.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/input.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/input.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/label.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/label.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/list.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/list.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/loader.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/loader.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/rail.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/rail.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/reveal.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/reveal.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/segment.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/segment.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/step.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/elements/step.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/globals/reset.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/globals/reset.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/globals/site.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/globals/site.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/accordion.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/accordion.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/checkbox.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/checkbox.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/dimmer.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/dimmer.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/dropdown.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/dropdown.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/embed.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/embed.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/modal.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/modal.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/nag.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/nag.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/popup.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/popup.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/progress.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/progress.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/rating.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/rating.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/search.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/search.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/shape.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/shape.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/sidebar.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/sidebar.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/sticky.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/sticky.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/tab.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/tab.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/transition.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/modules/transition.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/ad.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/ad.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/card.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/card.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/comment.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/comment.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/feed.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/feed.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/item.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/item.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/statistic.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/site/views/statistic.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/theme.config.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/theme.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/breadcrumb.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/breadcrumb.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/form.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/form.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/grid.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/grid.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/menu.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/menu.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/message.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/message.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/table.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/collections/table.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/button.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/button.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/container.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/container.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/divider.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/divider.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/flag.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/flag.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/header.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/header.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/icon.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/icon.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/image.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/image.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/input.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/input.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/label.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/label.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/list.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/list.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/loader.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/loader.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/rail.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/rail.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/reveal.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/reveal.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/segment.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/segment.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/step.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/elements/step.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/globals/reset.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/globals/reset.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/globals/site.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/globals/site.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/accordion.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/accordion.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/checkbox.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/checkbox.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/dimmer.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/dimmer.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/dropdown.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/dropdown.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/embed.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/embed.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/modal.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/modal.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/nag.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/nag.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/popup.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/popup.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/progress.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/progress.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/rating.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/rating.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/search.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/search.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/shape.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/shape.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/sidebar.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/sidebar.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/sticky.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/sticky.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/tab.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/tab.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/transition.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/modules/transition.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/ad.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/ad.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/card.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/card.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/comment.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/comment.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/feed.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/feed.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/item.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/item.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/statistic.overrides.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/semantic-ui/themes/default/views/statistic.variables.import.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/client/index.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/Sidebar.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/pages/About.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/pages/Home.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/pages/Submit.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/pages/home/MainJumbotron.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/layouts/App.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/semantic.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/graeme-meme-database.iml" afterPath="$PROJECT_DIR$/.idea/graeme-meme-database.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
     </list>
     <ignored path="graeme-meme-database.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -385,19 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainJumbotron.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imports/ui/components/pages/home/MainJumbotron.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sidebar.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sidebar.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/components/Sidebar.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -409,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/main.css">
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -456,6 +169,7 @@
         <option value="$PROJECT_DIR$/imports/ui/layouts/App.jsx" />
         <option value="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
         <option value="$PROJECT_DIR$/client/main.jsx" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -545,142 +259,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graeme-meme-database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -806,12 +384,20 @@
       <option name="presentableId" value="Default" />
       <updated>1474647668297</updated>
       <workItem from="1474647671450" duration="17358000" />
-      <workItem from="1474823026521" duration="984000" />
+      <workItem from="1474823026521" duration="1200000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1474824153696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474824153696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18342000" />
+    <option name="totallyTimeSpent" value="18558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -819,12 +405,12 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4409905" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.443098" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4409905" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5590095" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.556902" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -846,6 +432,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,6 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,6 +604,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,6 +621,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,6 +707,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/components/Sidebar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1120,6 +722,22 @@
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
