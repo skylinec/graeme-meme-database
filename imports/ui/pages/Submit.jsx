@@ -54,7 +54,7 @@ export default class Submit extends Component {
                         />
                         <br/><br/><br/><br/>
                         <input type="submit" value="Submit"/>
-                    </form> : '<b>Sign in</b>'
+                    </form> : "YOU FUCKING AREN'T SIGNED IN.. LIKE.. JESUS"
 
                 }
 
