@@ -24,7 +24,7 @@ FlowRouter.route('/meme/:id', {
     name: 'memeView',
     action(params) {
         mount(App, {
-            content: <MemeView memeId={params.id}/>
+            content: <MemeView givenId={params.id}/>
         });
     }
 });

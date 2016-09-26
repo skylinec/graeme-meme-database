@@ -2,9 +2,16 @@ import React, { Component, PropTypes } from 'react';
 import Meme from '../components/home/Meme';
 import { createContainer } from 'meteor/react-meteor-data';
 
+import {FlowRouter} from 'meteor/kadira:flow-router'
+
 import { Memes } from '../../api/Memes.js';
 
 export default class MemeView extends Component {
+
+    componentDidMount() {
+        document.scrollToTop();
+    }
+
     constructor(){
         super(...arguments);
     }
@@ -18,8 +25,6 @@ export default class MemeView extends Component {
     render() {
         return (
             <div>
-                <MainJumbotron/>
-
                 <ul>
                     {this.renderMeme()}
                 </ul>
@@ -34,6 +39,6 @@ Meme.propTypes = {
 
 export default createContainer(() => {
     return {
-        memes: Memes.find({ memeId: MemeView.props.memeId }).fetch()
+        memes: Memes.find({ memeId: FlowRouter.getParam("id") }).fetch()
     };
 }, MemeView)
