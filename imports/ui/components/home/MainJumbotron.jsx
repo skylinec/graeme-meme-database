@@ -9,9 +9,9 @@ export default class MainJumbotron extends Component {
                 <div className="row">
                     <div className="column padding-reset">
                         <div className="ui huge message page grid">
-                            <h1 className="ui huge header">Hello, world!</h1>
+                            <h1 className="ui huge header">Graeme Meme Database</h1>
                             <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                            <a className="ui blue button">Learn more »</a>
+                            <a className="ui blue button" href="/submit">Submit Yours</a>
                         </div>
                     </div>
                 </div>

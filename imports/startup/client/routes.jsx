@@ -1,12 +1,15 @@
 import {FlowRouter} from 'meteor/kadira:flow-router'
-import React from 'react'
+import React, { ReactLayout } from 'react'
 import { mount } from 'react-mounter'
 
 import App from '../../ui/layouts/App'
 
+import Meme from '../../ui/components/home/Meme'
+
 import Home from '../../ui/pages/Home'
 import Submit from '../../ui/pages/Submit'
 import About from '../../ui/pages/About'
+import MemeView from '../../ui/pages/MemeView'
 
 FlowRouter.route('/', {
     name: 'homepage',
@@ -17,8 +20,15 @@ FlowRouter.route('/', {
     }
 });
 
+FlowRouter.route('/meme/:id', {
+    name: 'memeView',
+    action( params ) {
+        ReactLayout.render( MemeView, { yield: <Meme memeId={params.id} /> });
+    }
+});
+
 FlowRouter.route('/submit', {
-    name: 'homepage',
+    name: 'submit',
     action() {
         mount(App, {
             content: <Submit />
@@ -27,7 +37,7 @@ FlowRouter.route('/submit', {
 });
 
 FlowRouter.route('/about', {
-    name: 'homepage',
+    name: 'about',
     action() {
         mount(App, {
             content: <About />

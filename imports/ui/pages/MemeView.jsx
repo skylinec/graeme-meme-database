@@ -1,19 +1,12 @@
 import React, { Component, PropTypes } from 'react';
-import MainJumbotron from '../components/home/MainJumbotron';
 import Meme from '../components/home/Meme';
 import { createContainer } from 'meteor/react-meteor-data';
 
 import { Memes } from '../../api/Memes.js';
 
-export default class Home extends Component {
+export default class MemeView extends Component {
     constructor(){
         super(...arguments);
-    }
-
-    renderMemes() {
-        return this.props.memes.map((meme) => (
-            <Meme key={meme._id} meme={meme}/>
-        ));
     }
 
     render() {
@@ -22,19 +15,19 @@ export default class Home extends Component {
                 <MainJumbotron/>
 
                 <ul>
-                    {this.renderMemes()}
+                    {this.props.yield}
                 </ul>
             </div>
         )
     }
 }
 
-Home.propTypes = {
+Meme.propTypes = {
     memes: PropTypes.array.isRequired
 };
 
 export default createContainer(() => {
     return {
-        memes: Memes.find({}).fetch(),
+        memes: Memes.find({ key: this.props.key }).fetch(),
     };
-}, Home)
+}, MemeView)
