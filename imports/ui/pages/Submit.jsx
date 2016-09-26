@@ -31,7 +31,7 @@ export default class Submit extends Component {
             content,
             memeId: this.randomString(10),
             createdAt: new Date(), // current time
-            owner: Meteor.userID(),
+            owner: Meteor.userId(),
             username: Meteor.user(),
         });
 
