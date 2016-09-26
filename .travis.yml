@@ -7,3 +7,5 @@ services:
   - mongodb
 env:
   - LAIKA_OPTIONS="-t 5000"
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t cacf6a6c-67aa-429b-97e0-8c8b8c72a38c
