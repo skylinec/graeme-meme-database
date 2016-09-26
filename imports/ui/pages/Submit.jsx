@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom'
 import {FlowRouter} from 'meteor/kadira:flow-router'
+import { Button, Checkbox, Form } from 'stardust'
 
 import { Memes } from '../../api/Memes.js';
 
@@ -13,8 +14,11 @@ export default class Submit extends Component {
         return Math.round((Math.pow(36, length + 1) - Math.random() * Math.pow(36, length))).toString(36).slice(1);
     }
 
-    handleSubmit(event) {
-        event.preventDefault();
+    handleSubmit(e, serializedForm) {
+
+        this.setState({ serializedForm });
+
+        e.preventDefault();
 
         // Find the text field via the React ref
         const name = ReactDOM.findDOMNode(this.refs.name).value.trim();
@@ -26,13 +30,16 @@ export default class Submit extends Component {
             memeId: this.randomString(10),
             createdAt: new Date(), // current time
         });
+
+        FlowRouter.go('/');
     }
 
     render() {
         return (
             <div>
                 <h1>Submit</h1>
-                <form className="ui input" onSubmit={this.handleSubmit.bind(this)}>
+
+                <form onSubmit={this.handleSubmit.bind(this)}>
                     <input
                         type="text"
                         className="ui input"

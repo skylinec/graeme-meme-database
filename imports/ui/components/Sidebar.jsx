@@ -10,9 +10,9 @@ export default class Sidebar extends Component {
     };
 
     componentDidMount() {
-        $('.ui.sidebar').sidebar({
+        /* $('.ui.sidebar').sidebar({
             transition: 'overlay'
-        });
+        }); */
     };
 
     toggleSidebar() {
