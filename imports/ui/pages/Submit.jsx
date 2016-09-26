@@ -46,13 +46,14 @@ export default class Submit extends Component {
                         ref="name"
                         placeholder="Name"
                     />
-                    <br/>
+                    <br/><br/><br/><br/>
                     <input
                         type="text"
                         className="ui input"
                         ref="content"
                         placeholder="Meme content goes here.."
                     />
+                    <br/><br/><br/><br/>
                     <input type="submit" value="Submit"/>
                 </form>
             </div>
