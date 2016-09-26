@@ -26,14 +26,7 @@ export default class Submit extends Component {
         const name = ReactDOM.findDOMNode(this.refs.name).value.trim();
         const content = ReactDOM.findDOMNode(this.refs.content).value.trim();
 
-        Memes.insert({
-            name,
-            content,
-            memeId: this.randomString(10),
-            createdAt: new Date(), // current time
-            owner: Meteor.userId(),
-            username: Meteor.user().username.toString(),
-        });
+        Meteor.call('memes.insert', text);
 
         FlowRouter.go('/');
     }
