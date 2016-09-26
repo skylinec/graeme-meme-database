@@ -13,7 +13,6 @@
     "react-mounter": "^1.2.0",
     "react-router": "^2.8.1",
     "semantic-react": "^0.8.5",
-    "semantic-ui": "",
     "stardust": "^0.45.3",
     "underscore": "^1.8.3"
   },
