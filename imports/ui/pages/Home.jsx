@@ -12,7 +12,7 @@ export default class Home extends Component {
 
     renderMemes() {
         return this.props.memes.map((meme) => (
-            <Meme key={meme._id} meme={meme}/>
+            <Meme key={meme._id} memeId={meme.memeId} meme={meme}/>
         ));
     }
 
@@ -30,7 +30,7 @@ export default class Home extends Component {
 }
 
 Home.propTypes = {
-    memes: PropTypes.array.isRequired
+    meme: PropTypes.array.isRequired
 };
 
 export default createContainer(() => {

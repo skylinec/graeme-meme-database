@@ -2,10 +2,6 @@ import React, { Component, PropTypes } from 'react';
 
 export default class Meme extends Component {
 
-    getHREF() {
-        return "/meme/" + this.props.memeId;
-    }
-
     render() {
         return (
             <div className="ui raised very padded text container segment">

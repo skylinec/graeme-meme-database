@@ -1,5 +1,5 @@
 import {FlowRouter} from 'meteor/kadira:flow-router'
-import React, { ReactLayout } from 'react'
+import React from 'react'
 import { mount } from 'react-mounter'
 
 import App from '../../ui/layouts/App'
@@ -22,8 +22,10 @@ FlowRouter.route('/', {
 
 FlowRouter.route('/meme/:id', {
     name: 'memeView',
-    action( params ) {
-        ReactLayout.render( MemeView, { yield: <Meme memeId={params.id} /> });
+    action(params) {
+        mount(App, {
+            content: <MemeView memeId={params.id}/>
+        });
     }
 });
 

@@ -9,13 +9,19 @@ export default class MemeView extends Component {
         super(...arguments);
     }
 
+    renderMeme() {
+        return this.props.memes.map((meme) => (
+            <Meme key={meme._id} memeId={meme.memeId} meme={meme}/>
+        ));
+    }
+
     render() {
         return (
             <div>
                 <MainJumbotron/>
 
                 <ul>
-                    {this.props.yield}
+                    {this.renderMeme()}
                 </ul>
             </div>
         )
@@ -28,6 +34,6 @@ Meme.propTypes = {
 
 export default createContainer(() => {
     return {
-        memes: Memes.find({ key: this.props.key }).fetch(),
+        memes: Memes.find({ memeId: MemeView.props.memeId }).fetch()
     };
 }, MemeView)
