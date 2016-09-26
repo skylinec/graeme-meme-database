@@ -7,13 +7,18 @@ import { createContainer } from 'meteor/react-meteor-data';
 import { Memes } from '../../api/Memes.js';
 
 export default class Home extends Component {
+
+    getCurrentUsername() {
+        return Meteor.user()
+    }
+
     constructor(){
         super(...arguments);
     }
 
     renderMemes() {
         return this.props.memes.map((meme) => (
-            <Meme key={meme._id} memeId={meme.memeId} meme={meme} username={this.props.username}/>
+            <Meme key={meme._id} memeId={meme.memeId} meme={meme}/>
         ));
     }
 
@@ -38,6 +43,5 @@ export default createContainer(() => {
     return {
         memes: Memes.find({}).fetch(),
         currentUser: Meteor.user(),
-        username: Meteor.user().username,
     };
 }, Home)

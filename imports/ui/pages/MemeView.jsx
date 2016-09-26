@@ -9,6 +9,10 @@ import { Memes } from '../../api/Memes.js';
 
 export default class MemeView extends Component {
 
+    getCurrentUsername() {
+        return Meteor.user()
+    }
+
     componentDidMount() {
         document.scrollToTop();
     }
@@ -19,7 +23,7 @@ export default class MemeView extends Component {
 
     renderMeme() {
         return this.props.memes.map((meme) => (
-            <Meme key={meme._id} memeId={meme.memeId} meme={meme} username={this.props.username}/>
+            <Meme key={meme._id} memeId={meme.memeId} meme={meme}/>
         ));
     }
 
@@ -42,6 +46,5 @@ export default createContainer(() => {
     return {
         memes: Memes.find({ memeId: FlowRouter.getParam("id") }).fetch(),
         currentUser: Meteor.user(),
-        username: Meteor.user().username,
     };
 }, MemeView)
