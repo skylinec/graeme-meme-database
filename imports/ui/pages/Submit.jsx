@@ -32,7 +32,7 @@ export default class Submit extends Component {
             memeId: this.randomString(10),
             createdAt: new Date(), // current time
             owner: Meteor.userId(),
-            username: Meteor.user(),
+            username: Meteor.user().username.toString(),
         });
 
         FlowRouter.go('/');
