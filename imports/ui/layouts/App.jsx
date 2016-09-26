@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Sidebar from '../components/Sidebar';
+import AccountsUIWrapper from '../AccountsUIWrapper.jsx';
 
 import { Header } from 'stardust';
 
@@ -12,6 +13,7 @@ export default class App extends Component {
         return (
             <div>
                 <Sidebar/>
+                <AccountsUIWrapper />
                 {this.props.content}
             </div>
         )

@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import Meme from '../components/home/Meme';
 import { createContainer } from 'meteor/react-meteor-data';
+import { Meteor } from 'meteor/meteor';
 
 import {FlowRouter} from 'meteor/kadira:flow-router'
 
@@ -18,7 +19,7 @@ export default class MemeView extends Component {
 
     renderMeme() {
         return this.props.memes.map((meme) => (
-            <Meme key={meme._id} memeId={meme.memeId} meme={meme}/>
+            <Meme key={meme._id} memeId={meme.memeId} meme={meme} username={this.props.username}/>
         ));
     }
 
@@ -39,6 +40,8 @@ Meme.propTypes = {
 
 export default createContainer(() => {
     return {
-        memes: Memes.find({ memeId: FlowRouter.getParam("id") }).fetch()
+        memes: Memes.find({ memeId: FlowRouter.getParam("id") }).fetch(),
+        currentUser: Meteor.user(),
+        username: Meteor.user().username,
     };
 }, MemeView)

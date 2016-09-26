@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import MainJumbotron from '../components/home/MainJumbotron';
 import Meme from '../components/home/Meme';
+import { Meteor } from 'meteor/meteor';
 import { createContainer } from 'meteor/react-meteor-data';
 
 import { Memes } from '../../api/Memes.js';
@@ -12,7 +13,7 @@ export default class Home extends Component {
 
     renderMemes() {
         return this.props.memes.map((meme) => (
-            <Meme key={meme._id} memeId={meme.memeId} meme={meme}/>
+            <Meme key={meme._id} memeId={meme.memeId} meme={meme} username={this.props.username}/>
         ));
     }
 
@@ -36,5 +37,7 @@ Home.propTypes = {
 export default createContainer(() => {
     return {
         memes: Memes.find({}).fetch(),
+        currentUser: Meteor.user(),
+        username: Meteor.user().username,
     };
 }, Home)
