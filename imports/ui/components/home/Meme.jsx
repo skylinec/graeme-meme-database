@@ -17,7 +17,7 @@ export default class Meme extends Component {
             <div className="ui raised very padded text container segment">
                 <a href={this.getHREF()}><p className="ui title"><b>{this.props.meme.name}</b></p></a>
                 <p>{this.props.meme.content}</p>
-                <i>{this.props.memeId} - {this.props.createdAt}</i>
+                <i>{this.props.memeId} - {this.props.comment.createdAt.toString()}</i>
                 <b>{this.props.meme.username}</b>
                 <br/>
                 {(this.props.meme.username == Meteor.user().username.toString()) ? <button className="ui button" onClick={this.deleteThisMeme.bind(this)}>
