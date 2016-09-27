@@ -3,6 +3,7 @@ import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
 
 export const Memes = new Mongo.Collection('memes');
+export const CommentsCollection = new Mongo.Collection('comments');
 
 Meteor.methods({
     'memes.insert'(name, content) {
@@ -21,5 +22,21 @@ Meteor.methods({
             owner: Meteor.userId(),
             username: Meteor.user().username.toString(),
         });
-    }
+    },
+    'comments.insert'(memeId, content) {
+        check(memeId, String);
+        check(content, String);
+
+        if (!this.userId) {
+            throw new Meteor.Error('not-authorized');
+        }
+
+        CommentsCollection.insert({
+            content,
+            memeId,
+            createdAt: new Date(), // current time
+            owner: Meteor.user().username.toString(),
+        });
+    },
 })
+

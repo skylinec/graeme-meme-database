@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import Meme from '../components/home/Meme';
 import { createContainer } from 'meteor/react-meteor-data';
 import { Meteor } from 'meteor/meteor';
+import Comments from '../components/memeview/Comments';
 
 import {FlowRouter} from 'meteor/kadira:flow-router'
 
@@ -32,6 +33,7 @@ export default class MemeView extends Component {
             <div>
                 <ul>
                     {this.renderMeme()}
+                    <Comments passedMemeId={FlowRouter.getParam("id")}/>
                 </ul>
             </div>
         )
