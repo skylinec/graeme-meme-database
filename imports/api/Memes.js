@@ -23,6 +23,18 @@ Meteor.methods({
             username: Meteor.user().username.toString(),
         });
     },
+    'memes.delete'(username, owner, id) {
+        check(username, String);
+        check(owner, String);
+
+        if (!this.userId) {
+            throw new Meteor.Error('not-authorized');
+        }
+
+        if(owner == username) {
+            Memes.remove(id)
+        }
+    },
     'comments.insert'(memeId, content) {
         check(memeId, String);
         check(content, String);

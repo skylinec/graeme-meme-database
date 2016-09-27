@@ -35,6 +35,7 @@ export default class Comments extends Component {
                 <h1>Comments</h1>
                 <ul>
                     <AddComment memeId={this.getId()}/>
+                    <br/><br/>
                     { this.props.comments ?  <div>{this.renderComment()}</div> : <b>NO COMMENT</b> }
                 </ul>
             </div>

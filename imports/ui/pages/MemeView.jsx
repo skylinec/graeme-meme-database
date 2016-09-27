@@ -46,7 +46,7 @@ Meme.propTypes = {
 
 export default createContainer(() => {
     return {
-        memes: Memes.find({ memeId: FlowRouter.getParam("id") }).fetch(),
+        memes: Memes.find({ memeId: FlowRouter.getParam("id") }, {sort: { createdAt: -1 }}).fetch(),
         currentUser: Meteor.user(),
     };
 }, MemeView)
