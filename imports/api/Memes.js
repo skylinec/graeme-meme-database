@@ -38,5 +38,17 @@ Meteor.methods({
             owner: Meteor.user().username.toString(),
         });
     },
+    'comments.delete'(username, owner, id) {
+        check(username, String);
+        check(owner, String);
+
+        if (!this.userId) {
+            throw new Meteor.Error('not-authorized');
+        }
+
+        if(owner == username) {
+            CommentsCollection.remove(id)
+        }
+    },
 })
 

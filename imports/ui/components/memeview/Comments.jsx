@@ -31,11 +31,11 @@ export default class Comments extends Component {
 
     render() {
         return (
-            <div className="ui segment">
+            <div className="ui segment container very padded">
                 <h1>Comments</h1>
                 <ul>
                     <AddComment memeId={this.getId()}/>
-                    { this.props.passedMemeId ?  <div>{this.renderComment()}</div> : <b>NO COMMENT</b> }
+                    { this.props.comments ?  <div>{this.renderComment()}</div> : <b>NO COMMENT</b> }
                 </ul>
             </div>
         )
@@ -44,7 +44,7 @@ export default class Comments extends Component {
 
 export default createContainer(() => {
     return {
-        comments: CommentsCollection.find({memeId: FlowRouter.getParam("id")}).fetch(),
+        comments: CommentsCollection.find({memeId: FlowRouter.getParam("id")}, {sort: { createdAt: -1 }}).fetch(),
         currentUser: Meteor.user(),
     };
 }, Comments)
