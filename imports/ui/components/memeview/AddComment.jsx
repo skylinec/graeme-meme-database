@@ -21,7 +21,8 @@ export default class AddComment extends Component {
         const memeId = this.props.memeId.trim();
 
         Meteor.call('comments.insert', memeId, content);
-
+        
+        ReactDOM.findDOMNode(this.refs.content).value = '';
     }
 
     render() {
